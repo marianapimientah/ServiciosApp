@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ServiciosApp - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">ServiciosApp</a>
+    <div>
+      <a class="nav-link d-inline text-white" href="servicios.html">Servicios</a>
+      <a class="nav-link d-inline text-white" href="favoritos.html">Favoritos</a>
+      <a class="nav-link d-inline text-white" href="contacto.html">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="container text-center mt-5">
+  <h1 class="display-4">Explora Servicios Digitales</h1>
+  <p class="lead">Descubre experiencias educativas, tecnológicas y más</p>
+  <a href="servicios.html" class="btn btn-primary btn-lg">Ver servicios</a>
+</section>
+
+<!-- DESTACADOS -->
+<section class="container mt-5">
+  <h2 class="text-center mb-4">Servicios destacados</h2>
+  <div class="row">
+    <div class="col-md-4">
+  <div class="card shadow" onclick="irDetalle(1)" style="cursor:pointer;">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" class="card-img-top">
+    <div class="card-body">
+      <h5>Programación Web</h5>
+      <p>Aprende desarrollo desde cero</p>
+    </div>
+  </div>
+</div>
+    <div class="col-md-4">
+    <div class="card shadow" onclick="irDetalle(2)" style="cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1557838923-2985c318be48" class="card-img-top">
+        <div class="card-body">
+        <h5>Marketing Digital</h5>
+        <p>Impulsa tu negocio online</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="card shadow" onclick="irDetalle(4)" style="cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" class="card-img-top">
+        <div class="card-body">
+        <h5>Turismo</h5>
+        <p>Explora nuevas experiencias</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <p>© 2026 ServiciosApp - Todos los derechos reservados</p>
+</footer>
+<script>
+function irDetalle(id){
+  localStorage.setItem("detalle", id);
+  window.location.href = "detalle.html";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Curso de Programación Web",
+    "descripcion": "Aprende HTML, CSS y JavaScript desde cero",
+    "detalle": "Curso completo de desarrollo web donde aprenderás a crear páginas modernas y funcionales desde cero, incluyendo buenas prácticas y proyectos reales.",
+    "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    "id": 2,
+    "nombre": "Marketing Digital",
+    "descripcion": "Impulsa tu negocio en internet",
+    "detalle": "Aprende estrategias de marketing digital como SEO, redes sociales, publicidad online y analítica para hacer crecer tu negocio.",
+    "imagen": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 3,
+    "nombre": "Diseño Gráfico",
+    "descripcion": "Crea diseños impactantes",
+    "detalle": "Domina herramientas como Photoshop e Illustrator para crear diseños visuales atractivos y profesionales.",
+    "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+  },
+  {
+    "id": 4,
+    "nombre": "Tour por Bogotá",
+    "descripcion": "Explora la ciudad con guías expertos",
+    "detalle": "Recorrido por los principales puntos turísticos de Bogotá, incluyendo historia, cultura y gastronomía local.",
+    "imagen": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
+  },
+  {
+    "id": 5,
+    "nombre": "Curso de Fotografía",
+    "descripcion": "Aprende a capturar momentos únicos",
+    "detalle": "Curso práctico de fotografía donde aprenderás composición, iluminación y edición de imágenes.",
+    "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+  },
+  {
+    "id": 6,
+    "nombre": "Desarrollo de Apps Móviles",
+    "descripcion": "Crea aplicaciones para Android y iOS",
+    "detalle": "Aprende a desarrollar aplicaciones móviles utilizando tecnologías modernas y frameworks actuales.",
+    "imagen": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  }
+]
